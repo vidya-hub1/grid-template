@@ -1,0 +1,276 @@
+body{
+    background-color: lightgrey;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    background-color: lightblue;
+        color: grey;
+        text-shadow: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 1260px;
+        height: 70px;
+        margin-top: -40px;
+        padding-top: 10px;
+        padding-left: 10px;
+        .fa-solid.fa-bars{
+            float: inline-end;
+            padding-right: 20px;
+            margin-top: -45px;
+            font-size: xx-large;
+        }
+
+}
+
+.two{ 
+    background-color: black;
+    position: relative;
+    display:flex;
+    
+    width: 1260px;
+    img{
+        width: 350px;
+        height: 500px;
+       
+    }
+    b{text-align: center;
+        color: white;
+        font-family: monospace;
+        font-size: 2rem;
+        justify-content: center;
+        padding-right: 90px;
+       
+        margin-top: -50px;
+        margin-right: -80px;
+    }
+    span{
+        text-align: center;
+        color: orange;
+        font-family: monospace;
+        font-size: 2rem;
+
+    }
+    p{
+        text-align: center;
+        color: white;
+        justify-content: center;
+        font-size: x-large;
+    }
+    a{
+        color: orange;
+    
+    }
+    button{
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        padding: 25px 40px;
+    }
+    
+
+   
+}
+.three{
+    background-color: orangered;
+    position: relative;;
+    width: 1260px;
+    height: 200px;
+    margin-top: -30px;
+    .boxone{
+        position: absolute;
+        background-color: white;
+        width: 250px;
+        height: 260px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 80px;
+      .fa-solid.fa-location-dot{
+        font-weight: bold;
+        font-size: 45px;
+        color: orangered;
+        margin: 10px 90px 5px 50px;
+    }
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: -2px;
+        font-size: 25px;
+    }
+    p{
+        
+        text-transform: capitalize;
+        margin-top: -30px;
+        padding: 0px 10px;
+        font-size: larger;
+    }
+}
+    .boxtwo{
+        background-color:white;
+        position: absolute;
+        width: 250px;
+        height: 260px;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left: 360px;
+      .fa-solid.fa-phone{
+        font-weight: bold;
+        font-size: 45px;
+        color: orangered;
+        margin: 15px 90px 5px 50px;
+    }
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2px;
+    }
+    p{
+        position: absolute;
+        text-transform: capitalize;
+        margin-top: -30px;
+        margin-left: -58px;
+        padding: 0px 10px;
+        font-size: larger;
+}
+
+    }
+    .boxthreee{
+        background-color:white;
+        position: absolute;
+        width: 250px;
+        height: 260px;
+        border-radius: 10px;
+        margin-top: -10px;
+        margin-left: 640px;
+      .fa-solid.fa-fax{
+        font-weight: bold;
+        font-size: 45px;
+        color: orangered;
+        margin: 15px 95px 5px 50px;
+    }
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2px;
+    }
+    p{
+        position: absolute;
+        text-transform: capitalize;
+        margin-top: -30px;
+        margin-left: 50px;
+        padding: 0px 10px;
+        font-size: larger;
+}
+
+    }
+    .boxfour{
+        background-color:white;
+        position: absolute;
+        width: 250px;
+        height: 260px;
+        border-radius: 10px;
+        margin-top: -25px;
+        margin-left: 920px;
+      .fa-solid.fa-envelope{
+        font-weight: bold;
+        font-size: 45px;
+        color: orangered;
+        margin: 15px 95px 5px 50px;
+    }
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 2px;
+    }
+    a{
+        position: absolute;
+        text-align: center;
+        color: orangered;
+        margin-top: -20px;
+        margin-left: -100px;
+        padding: 0px 10px;
+        font-size: larger;
+    }
+    
+    }
+    
+}
+.five{
+    position: relative;
+    h1{
+        position: absolute;
+       text-transform: capitalize;
+       font-style:initial;
+       font-weight: bold;
+       font-size: xx-large;
+       margin-top: 140px;
+       margin-left: 50px;
+       
+    }
+    p{
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: bold;
+        font-size: large;
+        margin-top: 210px;
+        margin-left: -21px;
+    }
+    b{
+        font-weight: lighter;
+    
+    
+    }
+    h2{
+        font-size: 35px;
+        margin-top: 60px;
+        margin-left: 50px; 
+    }
+
+}
+.box{
+    .name{
+        color:#3C3D37;
+           margin-top: -29%;
+           margin-left: 50%;
+           label{
+            margin-top: -20px;
+           }
+           input{
+            padding: 20px;
+           }
+           h2{
+            display: inline-block;
+           }
+    }
+    .mssg{
+        color: #3C3D37;
+        input{
+            padding: 50px 100px;
+            margin-top: -15px;
+        }
+        margin-top: 1%;
+        margin-left: 60%;
+    }
+    button{
+        background-color: orangered;
+        color: white;
+        padding: 15px 160px;
+        border-radius: 20px;
+        margin-top: -15px;
+        margin-left: 60%;
+        border: orangered;
+    }
+}
+.six{
+    height: 280px;
+    background-color: #3C3D37;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    a{
+        color: orange;
+        margin-top: 20%;
+    }
+}
+
